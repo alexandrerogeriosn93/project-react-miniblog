@@ -1,16 +1,16 @@
 /* eslint-disable no-undef */
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firebase";
+import { getFirestore } from "firebase/firestore";
 
-require("dotenv").config();
+// require("dotenv").config();
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  apiKey: "AIzaSyBD3knHdKJ_l5GJA1YzTQbteF6PHjYSDtU",
+  authDomain: "miniblog-11bb5.firebaseapp.com",
+  projectId: "miniblog-11bb5",
+  storageBucket: "miniblog-11bb5.appspot.com",
+  messagingSenderId: "534391900003",
+  appId: "1:534391900003:web:2f23a709779c07f03f7556",
 };
 
 const app = initializeApp(firebaseConfig);
