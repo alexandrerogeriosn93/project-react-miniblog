@@ -8,7 +8,7 @@ const Post = () => {
   const { document: post, loading } = useFetchDocument("posts", id);
 
   return (
-    <div>
+    <div className={styles.post_container}>
       {loading && <p>Carregando post....</p>}
       {post && (
         <>
